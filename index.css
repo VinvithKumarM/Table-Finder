@@ -1,0 +1,71 @@
+
+body{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.well{
+  border: 1px solid;
+ width: 800px;
+  height: calc(100% - 40px);
+display: flex;
+align-items: center;
+justify-content: center;
+
+}
+
+.minidiv{
+
+  background-color: white;
+  border: 1px solid;
+  width: 350px;
+  height: 350px;
+  display: flex;
+  margin-bottom: : 80px;
+  align-items: center;
+justify-content:space-around;
+flex-direction: row;
+flex-wrap: wrap;
+}
+
+.wellheader{
+  height: 400px;
+}
+
+
+
+.button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 40px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 14px;
+    margin: 4px 2px;
+}
+
+.button5 {border-radius: 50%;}
+
+.firstpara{
+  font-family: 'Kanit', sans-serif;
+  font-size: 40px;
+  font-style: oblique;
+
+}
+
+.secondpara{
+  font-family: 'Kanit', sans-serif;
+font-family: 'Nanum Gothic Coding', monospace;
+font-size: 25px;
+
+}
+
+.reserved{
+  background-color: grey;
+  
+}
+
+.available{
+
+}
