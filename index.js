@@ -12,10 +12,14 @@ $('.minidiv').on('click', 'button', function(){
   $('h6').text(`Table Number: ${number}`);
 });
 
+$('.Close').on('click', function(){
 
-  var tables = [];
+
+});
+
+var tables = [];
 $('#saveButton').on('click', function(){
-  // $('button').css('background-color', #FF5500);
+  currentTable.css('background-color', '#ff0000');
   var input1 = $('#Name').val();
   var input2 = $('#Contact').val();
   var input3 = $('#dropdown').val();
@@ -25,16 +29,13 @@ $('#saveButton').on('click', function(){
   number:input2,
   size: input3,
   TableNo: input4
+
 };
   tables.push(reserved);
   console.log(tables);
   currentTable.attr('disabled', true);
-
   // $(".minidiv").setAttribute("onclick", "false");
     $( ".modal-content" ).hide();
-
-
-
 });
 
 
